@@ -9,13 +9,9 @@ A tiny CLI to search a WinAuth-style export for an `otpauth://` entry by nicknam
 winauth-totp-clip/
 ├─ README.md
 ├─ requirements.txt
-├─ .gitignore
-├─ src/
-│  └─ totp_clip.py
+├─ oauth_script.py
 ├─ sample/
 │  └─ winauth_export.txt
-└─ scripts/
-   └─ install.sh
 ```
 
 ---
@@ -50,12 +46,12 @@ macOS and Windows are supported via `pyperclip` fallback.
 ## Usage
 
 ```bash
-python3 src/totp_clip.py <file_path> <search_text>
+python3 src/oauth_script.py <file_path> <search_text>
 ```
 
 Example:
 ```bash
-python3 src/totp_clip.py sample/winauth_export.txt bank
+python3 src/oauth_script.py sample/winauth_export.txt bank
 ```
 
 If a matching nickname is found, the current 6 digit TOTP will be copied to your clipboard and a green box will be printed. If no match is found, a red box will be printed.
