@@ -24,13 +24,6 @@ Search a text export containing `otpauth://totp/...` URIs, generate a TOTP for t
 
 ## Why
 Use a WinAuth-style export outside of WinAuth. Keep it simple. Keep it local. No network.
-
-## Install
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
 ```
 
 On Linux you can optionally install `xclip` for fast clipboard support:
