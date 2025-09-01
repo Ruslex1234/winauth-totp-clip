@@ -122,7 +122,6 @@ otpauth://totp/Bitwarden?secret=JBSWY3DPEHPK3PXP&digits=6&icon=WinAuth
 
 ---
 
-```
 <p align="center">
   <img width="626" height="220" alt="image" src="https://github.com/user-attachments/assets/f88d9418-b302-451f-969d-0d0276f16763" />
 </p>
