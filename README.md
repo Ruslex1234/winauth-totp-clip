@@ -137,9 +137,14 @@ fi
 
 echo "Install complete. Run: source .venv/bin/activate && python3 src/totp_clip.py sample/winauth_export.txt bank"
 ```
+<p align="center">
+  <img width="626" height="220" alt="image" src="https://github.com/user-attachments/assets/f88d9418-b302-451f-969d-0d0276f16763" />
+</p>
 
-<img width="626" height="220" alt="image" src="https://github.com/user-attachments/assets/f88d9418-b302-451f-969d-0d0276f16763" />
-- Here is a preview of what it looks like red means it did not find anything
+<p align="center">
+  Here is a preview of what it looks like — red means it did not find anything
+</p>
+
 ---
 
 ## Notes
