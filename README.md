@@ -8,7 +8,6 @@ A tiny CLI to search a WinAuth-style export for an `otpauth://` entry by nicknam
 ```
 winauth-totp-clip/
 ├─ README.md
-├─ LICENSE
 ├─ requirements.txt
 ├─ .gitignore
 ├─ src/
