@@ -102,32 +102,6 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
-
----
-
-## requirements.txt
-```text
-pyotp>=2.9.0
-pyperclip>=1.8.2
-```
-
----
-
-## .gitignore
-```gitignore
-# Python
-__pycache__/
-*.pyc
-.venv/
-.env
-
-# Editors
-.vscode/
-.idea/
-
-# Mac
-.DS_Store
-```
 ---
 
 ## sample/winauth_export.txt
