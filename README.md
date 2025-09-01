@@ -122,20 +122,6 @@ otpauth://totp/Bitwarden?secret=JBSWY3DPEHPK3PXP&digits=6&icon=WinAuth
 
 ---
 
-## scripts/install.sh
-```bash
-#!/usr/bin/env bash
-set -euo pipefail
-
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-
-if command -v apt-get >/dev/null 2>&1; then
-  sudo apt-get update && sudo apt-get install -y xclip || true
-fi
-
-echo "Install complete. Run: source .venv/bin/activate && python3 src/totp_clip.py sample/winauth_export.txt bank"
 ```
 <p align="center">
   <img width="626" height="220" alt="image" src="https://github.com/user-attachments/assets/f88d9418-b302-451f-969d-0d0276f16763" />
