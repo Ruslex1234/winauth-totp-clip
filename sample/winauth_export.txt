@@ -1,0 +1,10 @@
+otpauth://totp/BankPrimary?secret=JBSWY3DPEHPK3PXP&digits=6&icon=WinAuth
+otpauth://totp/EmailGmail?secret=KBKQK3TPOEBXG6DU&digits=6&icon=WinAuth
+otpauth://totp/GithubMain?secret=KRUGS4ZANFZSAYJA&digits=6&icon=WinAuth
+otpauth://totp/AWSRootAccount?secret=JBSWY3DPFQQFO33S&digits=6&icon=WinAuth
+otpauth://totp/AzureTenant?secret=ONSWG4TFOQ======&digits=6&icon=WinAuth
+otpauth://totp/OktaSso?secret=KRSXG5DSMFZGK4TQ&digits=6&icon=WinAuth
+otpauth://totp/SlackWorkspace?secret=JBSWY3DPO5XXE3DE&digits=6&icon=WinAuth
+otpauth://totp/Cloudflare?secret=MFRGGZDFMZTWQ2LK&digits=6&icon=WinAuth
+otpauth://totp/ProtonMail?secret=KRSXG5A=OQ======&digits=6&icon=WinAuth
+otpauth://totp/Bitwarden?secret=JBSWY3DPEHPK3PXP&digits=6&icon=WinAuth
