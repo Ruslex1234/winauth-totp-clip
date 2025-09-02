@@ -16,16 +16,6 @@ winauth-totp-clip/
 
 ---
 
-## README.md
-```markdown
-# winauth-totp-clip
-
-Search a text export containing `otpauth://totp/...` URIs, generate a TOTP for the first nickname match, and copy the code to your clipboard.
-
-## Why
-Use a WinAuth-style export outside of WinAuth. Keep it simple. Keep it local. No network.
-```
-
 On Linux you can optionally install `xclip` for fast clipboard support:
 ```bash
 # Debian/Ubuntu
